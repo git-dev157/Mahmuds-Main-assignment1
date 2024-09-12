@@ -1,2 +1,50 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+# My first exercise
+drink_number = [1, 3, 7, 9, 11]
+ for drink in drink_number:
+     print (drink)
+
+# My second exercise
+ ages:{
+     umar :10,
+     Amina : 20,
+     oluwasaye : 30,
+ }
+ for (key, value) in ages.items():
+     print (key, value)
+
+
+# My third exercise
+ name = "Mahmud"
+ count = 0
+
+ print(name)
+ while name == "Mahmud" and count < 10:
+     count += 1
+     print(count)
+ if count == 10:
+         print("Aisha")
+
+
+# My fourth Exercise
+ cities = ['Berlin', 'São Paulo', 'Tokyo', 'New York']
+
+ for city in cities:
+     if " " in city:
+         continue
+     print(city)
+
+
+# My fifth Exercise
+ numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+ for row in numbers:
+     for num in row:
+         print(num)
+
+
+# My Assignment
+

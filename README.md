@@ -1,2 +1,2 @@
 # Mahmuds-Main1
- My assignment is inside this repository.
+ My exercises and my assignment are in this repository.
