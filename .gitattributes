@@ -68,7 +68,10 @@ for matrix in numbers_3d:
         for num in row:
             print(num)
 
+
+
 #My second assignment( add calculator)
+
 total = 0
 
 while True:
@@ -85,3 +88,57 @@ while True:
 
     except ValueError:
         print("Invalid input, please enter a valid integer or 'add' to finish.")
+
+
+
+# My third assignment
+
+for i in range(5, 0, -1):
+    print(i)
+print("Go!")
+
+# My fourth assignment
+for up, down in zip(range(0, 5), range(4, -1, -1)):
+    print(f"{up} {down}")
+
+
+
+# The fifth assignment(it was the hardest.)
+
+word = input("Input a word to reverse: ")
+
+# Reverse the word using slicing
+r_word = word[::-1]
+
+print(f"Output: {r_word}")
+
+
+
+# My sisxth assignment (end=" ") It keeps the numbers on the same line
+count = 0  # Initialize counter
+
+for i in range(100):  # I Use a large range to ensure I can find the first 7 multiples
+    if i % 7 == 0:
+        print(i, end=" ")  # Print the multiple of 7
+        count += 1
+    if count == 7:
+        break
+
+
+
+# My last assignment
+
+
+sentence = "The quick brown fox jumps over the lazy dog"
+
+vowels = "aeiouAEIOU"
+
+# Create an empty list to store vowels
+vowel_list = []
+
+for char in sentence:
+    if char in vowels:
+        vowel_list.append(char)  # Add vowel to the list
+
+# Print the list of vowels
+print(vowel_list)
