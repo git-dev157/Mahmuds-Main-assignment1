@@ -1,13 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
 
+# My first exercise 
+'''
+(BAD IDENTATION, DID YOU RUN THIS CODE BEFORE SUBMITTING?)
+CORRECTION
+drink_number = [1, 3, 7, 9, 11]
+for drink in drink_number:
+     print (drink)
+ '''
 
-# My first exercise
 drink_number = [1, 3, 7, 9, 11]
  for drink in drink_number:
      print (drink)
 
 # My second exercise
+'''
+PLEASE RUN YOUR CODE BEFORE SUBMITTING, SAME PROBLEM AS EXERCISE 1
+'''
  ages = {
      "umar" :10,
      "Amina" : 20,
@@ -19,6 +27,10 @@ drink_number = [1, 3, 7, 9, 11]
 
 
 # My third exercise
+'''
+PLEASE RUN YOUR CODE BEFORE SUBMITTING, BAD INDENTATION.
+THE CODE STRUCTURE IS GOOD BUT WONT RUN
+'''
  name = "Mahmud"
  count = 0
 
@@ -61,6 +73,7 @@ numbers_3d = [
         ]
 
 # Loop through the 3D list
+#print(matrix) should be outside the row codnition. Code is correct, good job
 for matrix in numbers_3d:
     for row in matrix:
         print(matrix)
@@ -71,7 +84,7 @@ for matrix in numbers_3d:
 
 
 #My second assignment( add calculator)
-
+#CORRECT
 total = 0
 
 while True:
@@ -92,18 +105,20 @@ while True:
 
 
 # My third assignment
-
+#correct
 for i in range(5, 0, -1):
     print(i)
 print("Go!")
 
 # My fourth assignment
+#correct
 for up, down in zip(range(0, 5), range(4, -1, -1)):
     print(f"{up} {down}")
 
 
 
 # The fifth assignment(it was the hardest.)
+#CORRECT
 
 word = input("Input a word to reverse: ")
 
@@ -115,6 +130,7 @@ print(f"Output: {r_word}")
 
 
 # My sisxth assignment (end=" ") It keeps the numbers on the same line
+#CORRECT
 count = 0  # Initialize counter
 
 for i in range(100):  # I Use a large range to ensure I can find the first 7 multiples
@@ -127,7 +143,7 @@ for i in range(100):  # I Use a large range to ensure I can find the first 7 mul
 
 
 # My last assignment
-
+#CORRECT
 
 sentence = "The quick brown fox jumps over the lazy dog"
 
